@@ -27,3 +27,4 @@ class DataCollection {
 }
 
 module.exports = DataCollection;
+

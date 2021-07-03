@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 const clothModel = require('../models/clothes');
-const DataCollection = require('../models/data-collection-class');
+const DataCollection = require('../models/data.-collection');
 const cloth = new DataCollection(clothModel);
 const validator = require('../middleware/validator');
 
@@ -32,6 +32,7 @@ async function createClothes(req, res, next) {
     next(e);
   }
 }
+
 async function updateClothes(req, res, next) {
   try {
     const id = req.params.id;
