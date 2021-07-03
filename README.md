@@ -16,6 +16,6 @@ Heroku URL : https://alaa-api-server.herokuapp.com/
 
 Github Actions : https://github.com/Alaa-AbuIssa/api-server/actions
 
-Pull Request: https://github.com/Alaa-AbuIssa/api-server/pull/1
+Pull Request: https://github.com/Alaa-AbuIssa/api-server/pull/2
 
 ]
