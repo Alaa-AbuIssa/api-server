@@ -13,7 +13,7 @@ describe('Server Test Group', ()=>{
   });
 
   it('Handles bad method', async ()=>{
-    const response = await request.post('/person?name=alaa');
+    const response = await request.delete('/person?name=alaa');
     expect(response.status).toEqual(404);
   });
 
